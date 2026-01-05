@@ -1,0 +1,52 @@
+============================================================
+TEST EXECUTION REPORT
+============================================================
+
+Test Name: SSO & Create Case Flow
+Execution Time: 2026-01-05 14:38:09
+Overall Status: PASS
+Duration: 7 seconds
+
+Final URL: https://login.microsoftonline.com/04226a73-45d6-4db7-b627-92d7c5041c58/saml2?SAMLRequest=fZLBbtswEETv%2FQqBd4o0TUkWYSlwGxQNkKKurfTQG03SMQFp6XCpoP37KlYMpBcfdzF8s5jh%2Bu7P0GevLqIP0JBFzknmwATr4bkhT91XuiJ37ac16qEXZ7UZ0wl27mV0mLINootpevclAI6Di3sXX71xT7vHhpxSOqNi7EXHAfO%2FWoNOzpxycIlNG6onEuvDswd2YTPEwBykqEl2P9H9pL%2BcdAVdtPngTQwYjilA78HlJgyMSyFKXS2pLGxJpT1U9FCKitbCVqbgcmGK1WxCsof7hmx2Pw23UpZHWteVpZIbQetlYenyIMWx5uXCFnbSIo7uATBpSA0RXJSULygvOr5Sy5XiVV7K6jfJtjGkYEL%2F2cMc2xhBBY0eFejBoUpG7TffH5XIuTrMIlTfum5Ltz%2F2Hcl%2BXeMXb%2FFPhQCqOfDbrPO7MWnnftTl4viRcBugrw2S9lZfbySG5zX76NK%2Bj%2F9%2FivYf
+Page Title: Sign in to your account
+
+============================================================
+STEP-BY-STEP EXECUTION
+============================================================
+
+i Step 1: Opening application login page
+   Time: 14:38:02 | Status: INFO
+
+i Step 2: Clicking SSO login button
+   Time: 14:38:06 | Status: INFO
+
+i Step 3: Waiting for Microsoft login page
+   Time: 14:38:08 | Status: INFO
+
+i Step 4: Entering email address
+   Time: 14:38:08 | Status: INFO
+
+i Step 5: Clicking Next button
+   Time: 14:38:09 | Status: INFO
+
+✓ Step 6: Email entered and Next clicked
+   Time: 14:38:09 | Status: PASS
+
+i Step 7: Waiting for manual SSO completion
+   Time: 14:38:09 | Status: INFO
+
+✓ Step 8: Test completed successfully
+   Time: 14:38:09 | Status: PASS
+   Details: All steps executed
+
+============================================================
+STATISTICS
+============================================================
+
+Total Steps: 8
+Passed: 2
+Failed: 0
+
+Screenshots:
+  - screenshot_before_manual_sso_20260105_143809.png
+  - screenshot_final_page_20260105_143809.png

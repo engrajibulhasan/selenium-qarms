@@ -1,0 +1,140 @@
+============================================================
+TEST EXECUTION REPORT
+============================================================
+
+Test Name: SSO & Create Case Flow
+Execution Time: 2026-01-05 15:25:45
+Overall Status: PASS
+Duration: 50 seconds
+
+Final URL: https://qarms.yaanatech.net/rms-sp/#/createCase
+Page Title: Create Case
+
+============================================================
+STEP-BY-STEP EXECUTION
+============================================================
+
+i Step 1: Opening application login page
+   Time: 15:24:54 | Status: INFO
+
+i Step 2: Clicking SSO login button
+   Time: 15:24:58 | Status: INFO
+
+i Step 3: Waiting for Microsoft login page
+   Time: 15:25:01 | Status: INFO
+
+i Step 4: Entering email address
+   Time: 15:25:01 | Status: INFO
+
+i Step 5: Clicking Next button
+   Time: 15:25:02 | Status: INFO
+
+✓ Step 6: Email entered and Next clicked
+   Time: 15:25:02 | Status: PASS
+
+i Step 7: Waiting for manual SSO completion
+   Time: 15:25:02 | Status: INFO
+
+i Step 8: Monitoring SSO redirect flow
+   Time: 15:25:02 | Status: INFO
+
+✓ Step 9: Redirected from Microsoft login page
+   Time: 15:25:30 | Status: PASS
+   Details: URL: https://qarms.yaanatech.net/rms-sp/#/sso-token-verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJSYWppYnVsLkhhc2FuQHlhYW5hLmNvbSIsImV4cCI6MTc2NzYwNTI0OX0.exwg7h6nTbga7PCE3QQOEte3YXmwQD2gDW0k7g6id5w
+
+✓ Step 10: Received token from Microsoft
+   Time: 15:25:30 | Status: PASS
+   Details: Token URL detected
+
+✓ Step 11: Token verification completed
+   Time: 15:25:32 | Status: PASS
+   Details: Redirected to: https://qarms.yaanatech.net/rms-sp/#/home
+
+i Step 12: Unexpected redirect after token verification
+   Time: 15:25:32 | Status: WARN
+   Details: URL: https://qarms.yaanatech.net/rms-sp/#/home
+
+i Step 13: Starting Create Case flow
+   Time: 15:25:32 | Status: INFO
+
+i Step 14: Clicking on Create Case button
+   Time: 15:25:32 | Status: INFO
+
+✓ Step 15: Create Case button clicked
+   Time: 15:25:33 | Status: PASS
+
+i Step 16: Opening case type dropdown
+   Time: 15:25:34 | Status: INFO
+
+✓ Step 17: Case type dropdown found
+   Time: 15:25:35 | Status: PASS
+
+✓ Step 18: Dropdown opened
+   Time: 15:25:35 | Status: PASS
+
+i Step 19: Selecting 'Localización Geográfica' from dropdown
+   Time: 15:25:36 | Status: INFO
+
+i Step 20: Found 15 dropdown options
+   Time: 15:25:36 | Status: INFO
+
+✓ Step 21: Selected: Localización Geográfica
+   Time: 15:25:37 | Status: PASS
+
+i Step 22: Waiting for page to load after selection
+   Time: 15:25:37 | Status: INFO
+
+✓ Step 23: Page loaded after case type selection
+   Time: 15:25:40 | Status: PASS
+   Details: URL: https://qarms.yaanatech.net/rms-sp/#/createCase
+
+i Step 24: Clicking on requestor card link
+   Time: 15:25:40 | Status: INFO
+
+✓ Step 25: Requestor link clicked
+   Time: 15:25:40 | Status: PASS
+
+i Step 26: Waiting for requestor section to expand
+   Time: 15:25:40 | Status: INFO
+
+✓ Step 27: Requestor section expanded
+   Time: 15:25:42 | Status: PASS
+
+i Step 28: Typing 'Kartik' in search input
+   Time: 15:25:42 | Status: INFO
+
+✓ Step 29: Typed 'Kartik' in search field
+   Time: 15:25:42 | Status: PASS
+
+i Step 30: Selecting 'Kartik' from typeahead results
+   Time: 15:25:44 | Status: INFO
+
+i Step 31: Found 3 typeahead results
+   Time: 15:25:44 | Status: INFO
+
+✓ Step 32: Selected: Kartik Misra
+Ambelang, Jessica M Md
+Agency Type: O...
+   Time: 15:25:44 | Status: PASS
+
+✓ Step 33: Create Case flow completed successfully
+   Time: 15:25:44 | Status: PASS
+   Details: All steps executed
+
+============================================================
+STATISTICS
+============================================================
+
+Total Steps: 33
+Passed: 14
+Failed: 0
+
+Screenshots:
+  - screenshot_before_manual_sso_20260105_152502.png
+  - screenshot_create_case_clicked_20260105_152533.png
+  - screenshot_dropdown_opened_20260105_152535.png
+  - screenshot_case_type_selected_20260105_152537.png
+  - screenshot_requestor_link_clicked_20260105_152540.png
+  - screenshot_typed_kartik_20260105_152542.png
+  - screenshot_kartik_selected_20260105_152544.png
+  - screenshot_final_page_20260105_152544.png

@@ -1,0 +1,254 @@
+{
+    "test_name": "SSO & Create Case Flow",
+    "execution_time": "2026-01-05T15:25:45.097897",
+    "overall_status": "PASS",
+    "duration_seconds": 50,
+    "final_url": "https://qarms.yaanatech.net/rms-sp/#/createCase",
+    "page_title": "Create Case",
+    "browser_info": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "139.0.7258.138",
+        "chrome": {
+            "chromedriverVersion": "139.0.7258.154 (9e0d6b2b47ffb17007b713429c9a302f9e43847f-refs/branch-heads/7258@{#2926})",
+            "userDataDir": "/tmp/.org.chromium.Chromium.OezeeZ"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+            "debuggerAddress": "localhost:34793"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "linux",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+            "implicit": 0,
+            "pageLoad": 300000,
+            "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true
+    },
+    "test_steps": [
+        {
+            "timestamp": "15:24:54",
+            "description": "Opening application login page",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:24:58",
+            "description": "Clicking SSO login button",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:01",
+            "description": "Waiting for Microsoft login page",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:01",
+            "description": "Entering email address",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:02",
+            "description": "Clicking Next button",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:02",
+            "description": "Email entered and Next clicked",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:02",
+            "description": "Waiting for manual SSO completion",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:02",
+            "description": "Monitoring SSO redirect flow",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:30",
+            "description": "Redirected from Microsoft login page",
+            "status": "PASS",
+            "details": "URL: https://qarms.yaanatech.net/rms-sp/#/sso-token-verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJSYWppYnVsLkhhc2FuQHlhYW5hLmNvbSIsImV4cCI6MTc2NzYwNTI0OX0.exwg7h6nTbga7PCE3QQOEte3YXmwQD2gDW0k7g6id5w"
+        },
+        {
+            "timestamp": "15:25:30",
+            "description": "Received token from Microsoft",
+            "status": "PASS",
+            "details": "Token URL detected"
+        },
+        {
+            "timestamp": "15:25:32",
+            "description": "Token verification completed",
+            "status": "PASS",
+            "details": "Redirected to: https://qarms.yaanatech.net/rms-sp/#/home"
+        },
+        {
+            "timestamp": "15:25:32",
+            "description": "Unexpected redirect after token verification",
+            "status": "WARN",
+            "details": "URL: https://qarms.yaanatech.net/rms-sp/#/home"
+        },
+        {
+            "timestamp": "15:25:32",
+            "description": "Starting Create Case flow",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:32",
+            "description": "Clicking on Create Case button",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:33",
+            "description": "Create Case button clicked",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:34",
+            "description": "Opening case type dropdown",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:35",
+            "description": "Case type dropdown found",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:35",
+            "description": "Dropdown opened",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:36",
+            "description": "Selecting 'Localizaci\u00f3n Geogr\u00e1fica' from dropdown",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:36",
+            "description": "Found 15 dropdown options",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:37",
+            "description": "Selected: Localizaci\u00f3n Geogr\u00e1fica",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:37",
+            "description": "Waiting for page to load after selection",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:40",
+            "description": "Page loaded after case type selection",
+            "status": "PASS",
+            "details": "URL: https://qarms.yaanatech.net/rms-sp/#/createCase"
+        },
+        {
+            "timestamp": "15:25:40",
+            "description": "Clicking on requestor card link",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:40",
+            "description": "Requestor link clicked",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:40",
+            "description": "Waiting for requestor section to expand",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:42",
+            "description": "Requestor section expanded",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:42",
+            "description": "Typing 'Kartik' in search input",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:42",
+            "description": "Typed 'Kartik' in search field",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:44",
+            "description": "Selecting 'Kartik' from typeahead results",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:44",
+            "description": "Found 3 typeahead results",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:44",
+            "description": "Selected: Kartik Misra\nAmbelang, Jessica M Md\nAgency Type: O...",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "15:25:44",
+            "description": "Create Case flow completed successfully",
+            "status": "PASS",
+            "details": "All steps executed"
+        }
+    ],
+    "screenshots": [
+        "screenshot_before_manual_sso_20260105_152502.png",
+        "screenshot_create_case_clicked_20260105_152533.png",
+        "screenshot_dropdown_opened_20260105_152535.png",
+        "screenshot_case_type_selected_20260105_152537.png",
+        "screenshot_requestor_link_clicked_20260105_152540.png",
+        "screenshot_typed_kartik_20260105_152542.png",
+        "screenshot_kartik_selected_20260105_152544.png",
+        "screenshot_final_page_20260105_152544.png"
+    ],
+    "statistics": {
+        "total_steps": 33,
+        "passed_steps": 14,
+        "failed_steps": 0,
+        "info_steps": 18
+    }
+}

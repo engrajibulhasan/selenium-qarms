@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 50px;
+    }
+    .card {
+      max-width: 400px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    #message {
+      margin-top: 15px;
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Welcome</h2>
+
+    <input
+      type="text"
+      id="nameInput"
+      placeholder="Enter your name"
+    />
+
+    <button id="submitBtn">Submit</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script>
+    document.getElementById("submitBtn").addEventListener("click", function () {
+      const name = document.getElementById("nameInput").value;
+
+      if (name) {
+        document.getElementById("message").innerText =
+          "Hello " + name + ", form submitted successfully!";
+      }
+    });
+  </script>
+
+</body>
+</html>

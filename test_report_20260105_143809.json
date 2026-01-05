@@ -1,0 +1,98 @@
+{
+    "test_name": "SSO & Create Case Flow",
+    "execution_time": "2026-01-05T14:38:09.786170",
+    "overall_status": "PASS",
+    "duration_seconds": 7,
+    "final_url": "https://login.microsoftonline.com/04226a73-45d6-4db7-b627-92d7c5041c58/saml2?SAMLRequest=fZLBbtswEETv%2FQqBd4o0TUkWYSlwGxQNkKKurfTQG03SMQFp6XCpoP37KlYMpBcfdzF8s5jh%2Bu7P0GevLqIP0JBFzknmwATr4bkhT91XuiJ37ac16qEXZ7UZ0wl27mV0mLINootpevclAI6Di3sXX71xT7vHhpxSOqNi7EXHAfO%2FWoNOzpxycIlNG6onEuvDswd2YTPEwBykqEl2P9H9pL%2BcdAVdtPngTQwYjilA78HlJgyMSyFKXS2pLGxJpT1U9FCKitbCVqbgcmGK1WxCsof7hmx2Pw23UpZHWteVpZIbQetlYenyIMWx5uXCFnbSIo7uATBpSA0RXJSULygvOr5Sy5XiVV7K6jfJtjGkYEL%2F2cMc2xhBBY0eFejBoUpG7TffH5XIuTrMIlTfum5Ltz%2F2Hcl%2BXeMXb%2FFPhQCqOfDbrPO7MWnnftTl4viRcBugrw2S9lZfbySG5zX76NK%2Bj%2F9%2FivYf",
+    "page_title": "Sign in to your account",
+    "browser_info": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "139.0.7258.138",
+        "chrome": {
+            "chromedriverVersion": "139.0.7258.154 (9e0d6b2b47ffb17007b713429c9a302f9e43847f-refs/branch-heads/7258@{#2926})",
+            "userDataDir": "/tmp/.org.chromium.Chromium.NsFgfW"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+            "debuggerAddress": "localhost:44611"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "linux",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+            "implicit": 0,
+            "pageLoad": 300000,
+            "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true
+    },
+    "test_steps": [
+        {
+            "timestamp": "14:38:02",
+            "description": "Opening application login page",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:06",
+            "description": "Clicking SSO login button",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:08",
+            "description": "Waiting for Microsoft login page",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:08",
+            "description": "Entering email address",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:09",
+            "description": "Clicking Next button",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:09",
+            "description": "Email entered and Next clicked",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:09",
+            "description": "Waiting for manual SSO completion",
+            "status": "INFO",
+            "details": ""
+        },
+        {
+            "timestamp": "14:38:09",
+            "description": "Test completed successfully",
+            "status": "PASS",
+            "details": "All steps executed"
+        }
+    ],
+    "screenshots": [
+        "screenshot_before_manual_sso_20260105_143809.png",
+        "screenshot_final_page_20260105_143809.png"
+    ],
+    "statistics": {
+        "total_steps": 8,
+        "passed_steps": 2,
+        "failed_steps": 0,
+        "info_steps": 6
+    }
+}

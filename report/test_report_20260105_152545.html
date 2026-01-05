@@ -1,0 +1,224 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>SSO & Create Case Test Report - 20260105_152545</title>
+            <style>
+                body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+                .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+                .header { text-align: center; padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px; }
+                .status-badge { display: inline-block; padding: 5px 15px; border-radius: 20px; font-weight: bold; }
+                .status-pass { background-color: #d4edda; color: #155724; }
+                .status-fail { background-color: #f8d7da; color: #721c24; }
+                .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0; }
+                .summary-card { padding: 20px; border-radius: 8px; text-align: center; }
+                .card-pass { background-color: #e8f5e9; }
+                .card-fail { background-color: #ffebee; }
+                .card-info { background-color: #e3f2fd; }
+                .step-log { margin: 20px 0; }
+                .step { padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 5px solid; }
+                .step-pass { border-left-color: #28a745; background-color: #f8fff9; }
+                .step-fail { border-left-color: #dc3545; background-color: #fff8f8; }
+                .step-info { border-left-color: #17a2b8; background-color: #f8fdff; }
+                .screenshot-gallery { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+                .screenshot { width: 300px; border: 1px solid #ddd; border-radius: 5px; cursor: pointer; }
+                .screenshot:hover { transform: scale(1.02); transition: transform 0.2s; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f8f9fa; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="header">
+                    <h1>🎯 SSO & Create Case Test Report</h1>
+                    <h3>Execution Time: 2026-01-05 15:25:45</h3>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                
+                <div class="summary">
+                    <div class="summary-card card-info">
+                        <h3>📋 Total Steps</h3>
+                        <h2>33</h2>
+                    </div>
+                    <div class="summary-card card-pass">
+                        <h3>✅ Passed</h3>
+                        <h2>14</h2>
+                    </div>
+                    <div class="summary-card card-fail">
+                        <h3>❌ Failed</h3>
+                        <h2>0</h2>
+                    </div>
+                    <div class="summary-card card-info">
+                        <h3>⏱️ Duration</h3>
+                        <h2>50 seconds</h2>
+                    </div>
+                </div>
+                
+                <h2>📝 Test Details</h2>
+                <table>
+                    <tr>
+                        <th>Final URL</th>
+                        <td>https://qarms.yaanatech.net/rms-sp/#/createCase</td>
+                    </tr>
+                    <tr>
+                        <th>Page Title</th>
+                        <td>Create Case</td>
+                    </tr>
+                    <tr>
+                        <th>Browser</th>
+                        <td>chrome 139.0.7258.138</td>
+                    </tr>
+                </table>
+                
+                <h2>📋 Step-by-Step Execution</h2>
+                <div class="step-log">
+        
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 1: Opening application login page</strong><br>
+                        <small>Time: 15:24:54 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 2: Clicking SSO login button</strong><br>
+                        <small>Time: 15:24:58 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 3: Waiting for Microsoft login page</strong><br>
+                        <small>Time: 15:25:01 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 4: Entering email address</strong><br>
+                        <small>Time: 15:25:01 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 5: Clicking Next button</strong><br>
+                        <small>Time: 15:25:02 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 6: Email entered and Next clicked</strong><br>
+                        <small>Time: 15:25:02 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 7: Waiting for manual SSO completion</strong><br>
+                        <small>Time: 15:25:02 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 8: Monitoring SSO redirect flow</strong><br>
+                        <small>Time: 15:25:02 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 9: Redirected from Microsoft login page</strong><br>
+                        <small>Time: 15:25:30 | Status: PASS</small>
+            <br><small>Details: URL: https://qarms.yaanatech.net/rms-sp/#/sso-token-verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJSYWppYnVsLkhhc2FuQHlhYW5hLmNvbSIsImV4cCI6MTc2NzYwNTI0OX0.exwg7h6nTbga7PCE3QQOEte3YXmwQD2gDW0k7g6id5w</small></div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 10: Received token from Microsoft</strong><br>
+                        <small>Time: 15:25:30 | Status: PASS</small>
+            <br><small>Details: Token URL detected</small></div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 11: Token verification completed</strong><br>
+                        <small>Time: 15:25:32 | Status: PASS</small>
+            <br><small>Details: Redirected to: https://qarms.yaanatech.net/rms-sp/#/home</small></div>
+                    <div class="step step-warn">
+                        <strong>ℹ️ Step 12: Unexpected redirect after token verification</strong><br>
+                        <small>Time: 15:25:32 | Status: WARN</small>
+            <br><small>Details: URL: https://qarms.yaanatech.net/rms-sp/#/home</small></div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 13: Starting Create Case flow</strong><br>
+                        <small>Time: 15:25:32 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 14: Clicking on Create Case button</strong><br>
+                        <small>Time: 15:25:32 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 15: Create Case button clicked</strong><br>
+                        <small>Time: 15:25:33 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 16: Opening case type dropdown</strong><br>
+                        <small>Time: 15:25:34 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 17: Case type dropdown found</strong><br>
+                        <small>Time: 15:25:35 | Status: PASS</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 18: Dropdown opened</strong><br>
+                        <small>Time: 15:25:35 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 19: Selecting 'Localización Geográfica' from dropdown</strong><br>
+                        <small>Time: 15:25:36 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 20: Found 15 dropdown options</strong><br>
+                        <small>Time: 15:25:36 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 21: Selected: Localización Geográfica</strong><br>
+                        <small>Time: 15:25:37 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 22: Waiting for page to load after selection</strong><br>
+                        <small>Time: 15:25:37 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 23: Page loaded after case type selection</strong><br>
+                        <small>Time: 15:25:40 | Status: PASS</small>
+            <br><small>Details: URL: https://qarms.yaanatech.net/rms-sp/#/createCase</small></div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 24: Clicking on requestor card link</strong><br>
+                        <small>Time: 15:25:40 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 25: Requestor link clicked</strong><br>
+                        <small>Time: 15:25:40 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 26: Waiting for requestor section to expand</strong><br>
+                        <small>Time: 15:25:40 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 27: Requestor section expanded</strong><br>
+                        <small>Time: 15:25:42 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 28: Typing 'Kartik' in search input</strong><br>
+                        <small>Time: 15:25:42 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 29: Typed 'Kartik' in search field</strong><br>
+                        <small>Time: 15:25:42 | Status: PASS</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 30: Selecting 'Kartik' from typeahead results</strong><br>
+                        <small>Time: 15:25:44 | Status: INFO</small>
+            </div>
+                    <div class="step step-info">
+                        <strong>ℹ️ Step 31: Found 3 typeahead results</strong><br>
+                        <small>Time: 15:25:44 | Status: INFO</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 32: Selected: Kartik Misra
+Ambelang, Jessica M Md
+Agency Type: O...</strong><br>
+                        <small>Time: 15:25:44 | Status: PASS</small>
+            </div>
+                    <div class="step step-pass">
+                        <strong>✅ Step 33: Create Case flow completed successfully</strong><br>
+                        <small>Time: 15:25:44 | Status: PASS</small>
+            <br><small>Details: All steps executed</small></div>
+                </div>
+                
+                <h2>📸 Screenshots</h2>
+                <div class="screenshot-gallery">
+        <img src="screenshot_before_manual_sso_20260105_152502.png" alt="Screenshot 1" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_create_case_clicked_20260105_152533.png" alt="Screenshot 2" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_dropdown_opened_20260105_152535.png" alt="Screenshot 3" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_case_type_selected_20260105_152537.png" alt="Screenshot 4" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_requestor_link_clicked_20260105_152540.png" alt="Screenshot 5" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_typed_kartik_20260105_152542.png" alt="Screenshot 6" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_kartik_selected_20260105_152544.png" alt="Screenshot 7" class="screenshot" onclick="window.open(this.src)"><img src="screenshot_final_page_20260105_152544.png" alt="Screenshot 8" class="screenshot" onclick="window.open(this.src)">
+                </div>
+                
+                <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #666;">
+                    <p>Generated by Selenium Automation Test | {timestamp}</p>
+                </footer>
+            </div>
+        </body>
+        </html>
+        
